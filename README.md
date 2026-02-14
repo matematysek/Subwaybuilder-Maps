@@ -9,6 +9,12 @@ This pack includes Fukuoka (Japan), Vancouver (Canada), and Singapore (Whatever 
 
 The Data has been generated with early commute and resident data generation scripts from Kronifers subwaybuilder patcher. (https://github.com/Kronifer/subwaybuilder-patcher) so **the commute and residents data is not based on real census data and the resolution is quite inconsistent, but it is mostly reasonable and playable.**
 
+## Features
+
+ Automated Installer: Includes a custom Node.js script that automatically places large data files in the correct game directories (cities/data/CPH) while keeping the mod manageable. Portable Map Server: Generates a serve.bat file that makes hosting the local map tiles (PMTiles) easy.
+
+ **All of these scripts used in the mods and for data generation are from https://github.com/mhmoeller/SubwayBuilder-CPH and https://github.com/Kronifer/subwaybuilder-patcher, and i am very glad they can be adapted to other cities without many modifications.Thanks to mhmoeller, Kronifer and the Subwaybuilder modding community for making this possible!**
+
 ### Quality by city (best to worst)
 
 As OpenStreetMap coverage varies country by country, and i dont know how the algorithms generating demand data work (i might change them at some point), the quality of cities varies (a lot)
@@ -27,11 +33,13 @@ Cape Town: Bad (Data Resolution: Terrible, Buildings: OK)
 
 Dublin: Bad (Data Resolution: Terrible, Buildings: OK)
 
-## Features
+Scale:
+Data Resolution: How well spaced and reasonable the demand data is.
+The more pops there are, the more playable / realistic it gets.
+Good means the map is well playable, while Bad or Terrible mean that pops are often miles apart and very small / large
 
- Automated Installer: Includes a custom Node.js script that automatically places large data files in the correct game directories (cities/data/CPH) while keeping the mod manageable. Portable Map Server: Generates a serve.bat file that makes hosting the local map tiles (PMTiles) easy.
-
- **All of these scripts are from https://github.com/mhmoeller/SubwayBuilder-CPH, and i am very glad they can be adapted to other cities without many modifications.Thanks to mhmoeller and the Subwaybuilder modding community for making this possible!**
+Buildings:
+Good means most buildings do exist and they are 3d, while OK and worse mean that some buildings may be missing or the map is not available in 3d.
 
 ## Requirements
 Subway Builder (the game)
@@ -43,7 +51,7 @@ The installation process is automated to ensure all data files end up in the cor
 
 1. Make sure all requirements are met
 
-2. **Download the Code, unzip it and move the individual city mods (YVR, SIN, FUK) into your games mod folder.**
+2. **Download the Code, unzip it and move the individual city mods (YVR, SIN, FUK, ...) into your games mod folder.**
 
 3. Run the Installer:
 
