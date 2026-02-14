@@ -82,9 +82,9 @@ Generate a serve.bat or serve.sh file for you.
 
 ## How to Play
 Start the Map Server:
-Locate the serve.bat or serve.sh file (created by the installer in the mod folder).
-Tip: You can move serve.bat to your Desktop for easy access.
+Locate the serve.bat or serve.sh file (in the alltiles folder)
 Double-click it to start the local server.
+This will host all tiles of all cities in the pack, even if not downloaded.
 If this does not work, start it the same way install.bat or install.sh was.
 Keep this window open while playing.
 Start the Game:
