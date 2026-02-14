@@ -45,7 +45,8 @@ const TARGET_FOLDER_NAME = cityName;             // e.g. "CPH" (The folder insid
 const DATA_FILES = [
     "roads.geojson.gz",
     "buildings_index.json.gz",
-    "demand_data.json.gz"
+    "demand_data.json.gz",
+    "runways_taxiways.geojson.gz"
 ];
 
 // --- HELPER: Handle Redirects ---
