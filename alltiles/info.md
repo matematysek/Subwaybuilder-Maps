@@ -1,0 +1,1 @@
+This is a script that hosts all of the map **tiles**, but does not have anything to do with the data the game needs to run the City Mods.
