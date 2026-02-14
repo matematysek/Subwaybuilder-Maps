@@ -93,7 +93,7 @@ function waitForAPI() {
 
 async function initMod() {
     try {
-        console.log("Starting CPH mod initialization...");
+        console.log("Starting SIN mod initialization...");
         const api = await waitForAPI();
         // 1. REGISTER CITIES
         api.registerCity({
@@ -146,7 +146,7 @@ async function initMod() {
                             trackElevations: true
                         });
                     }
-            
+                    api.ui.showNotification('Singapore loaded successfully!', 'success');
                 }
             });
         }
@@ -156,5 +156,5 @@ async function initMod() {
     }
 }
 
-console.log("CPH mod loading...");
+console.log("SIN mod loading...");
 setTimeout(() => { initMod(); }, 100);
