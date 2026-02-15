@@ -1,11 +1,11 @@
-# Subway Builder – Map Mods collection: Fukuoka, Berlin, Singapore, Sapporo, Warsaw, Athens, Vancouver
+# Subway Builder – Map Mods collection: Fukuoka, Berlin, Singapore, Sapporo, Trondheim, Warsaw, Athens, Vancouver
 
 **These mods are modified Versions of mhmoellers Copenhagen City Mod.**
 **You can find the original Copenhagen City Mod (published under the MIT license as far as i know) here: https://github.com/mhmoeller/SubwayBuilder-CPH**
 
 ## Cities and Data Quality
 
-This pack includes Fukuoka (Japan), Berlin (Germany), and Singapore (Whatever country this might be in...), and some more cities.
+This pack includes Fukuoka (Japan), Berlin (Germany), Trondheim (Norway), Singapore (Whatever country this might be in...), and some more cities.
 
 The Data has been generated with early commute and resident data generation scripts from Kronifers subwaybuilder patcher. (https://github.com/Kronifer/subwaybuilder-patcher) so **the commute and residents data is not based on real census data and the resolution is quite inconsistent, but it is mostly reasonable and playable.**
 
@@ -26,6 +26,8 @@ Fukuoka: Good (Data Resolution: Very Good, Buildings: Good)
 Singapore: Good (Data Resolution: Good, Buildings: Good)
 
 Berlin: Good (Data Resolution: Good, Buildings: Good)
+
+Trondheim: Good (Data Resolution: Good, Buildings: Good)
 
 Sapporo: OK (Data Resolution: Varies,  Buildings: Good)
 
