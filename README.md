@@ -27,13 +27,13 @@ Singapore: Good (Data Resolution: Good, Buildings: Good)
 
 Berlin: Good (Data Resolution: Good, Buildings: Good)
 
+Sapporo: OK (Data Resolution: Varies,  Buildings: Good)
+
 Warsaw: OK (Data Resolution: OK, Buildings: Good)
 
 Athens: OK (Data Resolution: OK, Buildings: OK)
 
 Vancouver: Meh (Data Resolution: Bad, Buildings: Good)
-
-Sapporo: ? (Good) (Data Resolution: Very dense but i dint know if playable, Buildings: Good)
 
 **Removed:**
 
