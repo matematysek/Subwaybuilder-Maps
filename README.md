@@ -1,15 +1,15 @@
-# Subway Builder – Map Mods collection: Fukuoka, Berlin, Singapore, Bengaluru, Sapporo, Trondheim, Warsaw, Athens, Vancouver
+# Subway Builder – Map Mods collection: Prague, Brno, Bratislava
 
 **These mods are modified Versions of mhmoellers Copenhagen City Mod.**
 **You can find the original Copenhagen City Mod (published under the MIT license as far as i know) here: https://github.com/mhmoeller/SubwayBuilder-CPH**
 
 ## Cities and Data Quality
 
-This pack includes Fukuoka (Japan), Berlin (Germany), Trondheim (Norway), Singapore (Whatever country this might be in...), and some more cities.
+This pack includes Prague, Brno (Czechia) and Bratislava (Slovakia) each with space around the cities for commuter trains.
 
 The Data has been generated with early commute and resident data generation scripts from Kronifers subwaybuilder patcher. (https://github.com/Kronifer/subwaybuilder-patcher) so **the commute and residents data is not based on real census data and the resolution is quite inconsistent, but it is mostly reasonable and playable.**
 
-There are some - lets call it - unconventional people counts in some places, (like 27.000 people living and 200.000 people working at athens airport) - i have tried fixing some of them, but right not there is not very much i can do.
+There are some - lets call it - unconventional people counts in some places - i have tried fixing some of them, but right not there is not very much i can do.
 
 ## Features
 
@@ -17,44 +17,7 @@ There are some - lets call it - unconventional people counts in some places, (li
 
  **All of these scripts used in the mods and for data generation are from https://github.com/mhmoeller/SubwayBuilder-CPH and https://github.com/Kronifer/subwaybuilder-patcher, and i am very glad they can be adapted to other cities without many modifications.Thanks to mhmoeller, Kronifer and the Subwaybuilder modding community for making this possible!**
 
-### Quality by city (best to worst)
 
-As OpenStreetMap coverage varies country by country, and i dont know how the algorithms generating demand data work (i might change them at some point), the quality of cities varies (a lot)
-
-Fukuoka: Good (Data Resolution: Very Good, Buildings: Good)
-
-Singapore: Good (Data Resolution: Good, Buildings: Good)
-
-Berlin: Good (Data Resolution: Good, Buildings: Good)
-
-Trondheim: Good (Data Resolution: Good, Buildings: Good)
-
-Bengaluru: OK (Data Resolution: Good, Buildings: OK)
-
-Sapporo: OK (Data Resolution: Varies,  Buildings: Good)
-
-Warsaw: OK (Data Resolution: OK, Buildings: Good)
-
-Athens: OK (Data Resolution: OK, Buildings: OK)
-
-Vancouver: Meh (Data Resolution: Bad, Buildings: Good)
-
-**Removed:**
-
-Cape Town: Bad (Data Resolution: Terrible, Buildings: OK)
-
-Dublin: Bad (Data Resolution: Terrible, Buildings: OK)
-
-Scale:
-
-Data Resolution: How well spaced and reasonable the demand data is.
-The more pops there are, the more playable / realistic it gets.
-Good means the map is well playable, while Bad or Terrible mean that pops are often miles apart and very small / large
-
-Buildings:
-Good means most buildings do exist and they are 3d, while OK and worse mean that some buildings may be missing or the map is not available in 3d.
-
-## Requirements
 Subway Builder (the game)
 Node.js (Required to run the installer script)
 The files from this repository.
